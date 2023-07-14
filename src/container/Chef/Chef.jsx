@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Chef = () => {
+const Chef = () => {
   return (
     <div>Chef</div>
   )
 }
+
+export default Chef
