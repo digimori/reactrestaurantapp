@@ -1,9 +1,21 @@
 import React from 'react';
+import { AboutUs, Chef, Findus, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { Navbar } from './components';
+import './App.css';
 
 const App = () => {
   return (
     <div>
-        <h1>YO YO YO</h1>
+        <Navbar />
+        <Header />
+        <AboutUs />
+        <SpecialMenu />
+        <Chef />
+        <Intro />
+        <Laurels />
+        <Gallery />
+        <Findus />
+        <Footer />
     </div>
   )
 }
