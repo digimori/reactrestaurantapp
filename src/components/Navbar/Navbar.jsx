@@ -34,7 +34,7 @@ const Navbar = () => {
             <ul className="app__navbar-smallscreen_links">
             <li><a href="#contact" onClick={() => setToggleMenu(false)}>Login/Register</a></li>
             <li><a href="#contact" onClick={() => setToggleMenu(false)}>Book a Table</a></li>
-            <Separator color="gold" />
+            <Separator color="#DCCA87" className="smallscreen__separator"/>
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
               <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
               <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { GiOldKing } from 'react-icons/gi';
 
 const Separator = ({color}) => {
   return (
@@ -7,8 +6,7 @@ const Separator = ({color}) => {
         style={{
             color: color,
             backgroundColor: color,
-            height: 2,
-            borderColor: 'gold',
+            height: 1,
         }}
     />
   )
