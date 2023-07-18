@@ -42,10 +42,19 @@
     .app__chef-sign img {
         width: 370px;
     }
+    .app__wrapper_info h1 {
+        font-size: 67px;
+        line-height: 117px;
+    }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
     .app__chef-sign img {
         width: 80%;
+    }
+    .app__wrapper_info,
+    .app__wrapper_info h1 {
+        font-size: 37px;
+        line-height: 40px;
     }
 }
