@@ -12,7 +12,7 @@ const Footer = () => {
 
       <div className='app__footer-links'>
         <div className='app__footer-links_contact'>
-        contact deets
+        
         </div>
         <div className='app__footer-links_logo'>
         Social links
@@ -20,6 +20,9 @@ const Footer = () => {
         <div className='app__footer-links_work'>
           Working hours
         </div>
+      </div>
+      <div className='footer__copyright'>
+        <p className='p__opensans'>2021 Gericht. All Rights Reserved.</p>
       </div>
     </div>
   )
