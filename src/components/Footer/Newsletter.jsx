@@ -6,7 +6,7 @@ export const Newsletter = () => {
   return (
     <div className='app__newsletter'>
       <div className='app__newsletter-heading'>
-        <Subheading title="Newsletter" />
+        <SubHeading title="Newsletter" />
         <h1 className='headtext__cormorant'>Subscribe to our Newsletter</h1>
         <p className='p__opensans'>Never miss our latest updates!</p>
       </div>
